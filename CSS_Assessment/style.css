@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+  margin: 0;
+  line-height: 1.5
+}
+
+.box1 {
+  background: grey;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px
+}
+
+.box2 {
+  background: blue;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+  text-align: center;
+  padding: 200px 0
+}
+
+.box3 {
+  background: red;
+  position: absolute;
+  right: 0px;
+  width: 25%;
+  text-align: center;
+  padding: 200px 0
+}
+
+.box4 {
+  background: green;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  text-align: center
+}
