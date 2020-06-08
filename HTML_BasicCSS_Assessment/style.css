@@ -13,13 +13,28 @@ h5 {
 }
 
 h6 {
-  text-align: center
+  text-align: center;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1 {
   text-align: center;
   color: white;
-  font-size: 80px
+  font-size: 80px;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div a {
+  position:fixed;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 a:link, a:visited, a:hover, a:active {

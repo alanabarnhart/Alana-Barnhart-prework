@@ -1,0 +1,138 @@
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+
+  <!-- Link html to Bootstrap CDN and CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+ 
+</head>
+
+<body>
+
+  
+
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <!-- Our brand / logo -->
+      <a class="navbar-brand text-white" href="#">Alana Barnhart</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <!-- Collapsible button -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+
+          <!-- The links of our navbar -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm-12">
+        <h1>Portfolio</h1>
+        <div class="underline">
+        </div>
+      </div>
+    </div>
+
+    <!-- First Row -->
+    <div class="row bottom-buffer">
+
+        <div class="col-md-6">
+            <div class="container">
+                <img src="assets/images/art.jpg" class="rounded" alt="Art"
+                    style="width:200px;height:200px;">
+                <div class="text-block">
+                    <span>Art</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6">
+            <div class="container">
+                <img src="assets/images/card.jpg" class="rounded" alt="Card Game"
+                    style="width:200px;height:200px;">
+                <div class="text-block">
+                    <span>Card Game</span>
+                </div>
+            </div>
+        </div>
+    
+      </div>
+
+      <!-- Second Row -->
+      <div class="row bottom-buffer">
+
+        <div class="col-md-6">
+            <div class="container">
+                <img src="assets/images/photography.jpg" class="rounded" alt="Photography"
+                    style="width:200px;height:200px;">
+                <div class="text-block">
+                    <span>Photography</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6">
+            <div class="container">
+                <img src="assets/images/game.jpg" class="rounded" alt="Trivia"
+                    style="width:200px;height:200px;">
+                <div class="text-block">
+                    <span>Trivia</span>
+                </div>
+            </div>
+        </div>
+    
+      </div>
+
+      <!-- Third Row -->
+      <div class="row bottom-buffer" id="last_row">
+
+        <div class="col-md-6">
+            <div class="container">
+                <img src="assets/images/tech.jpg" class="rounded" alt="Online Game"
+                    style="width:200px;height:200px;">
+                <div class="text-block">
+                    <span>Online Game</span>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="footer navbar-fixed-bottom" id="sticky_footer">
+      <p>Copyright &copy;</p>
+  </div>
+
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
