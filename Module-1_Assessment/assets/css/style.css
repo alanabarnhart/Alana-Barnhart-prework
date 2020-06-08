@@ -9,6 +9,7 @@ body {
     color: #ffffff;
     position: relative;
     left: 10%;
+    white-space: nowrap;
 }
 
 .nav-link {
